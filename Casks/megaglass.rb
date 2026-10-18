@@ -1,6 +1,6 @@
 cask "megaglass" do
-  version "0.2.1"
-  sha256 "576808f18b7cccbbde6a2512629ec5ffcb606ed3b622d1ad3dd99af3cd728b78"
+  version "0.2.2"
+  sha256 "2befb59485b4e8e7163f91bd0e1418c31181ea2ccdf436446e6c268f7206c0e0"
 
   url "https://github.com/Turtlecute33/MegaGlass-macOS/releases/download/v#{version}/MegaGlass-macos-#{version}.dmg"
   name "MegaGlass"
