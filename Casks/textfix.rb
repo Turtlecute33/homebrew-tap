@@ -1,6 +1,6 @@
 cask "textfix" do
-  version "1.5.0"
-  sha256 "45eb5cf302724b90f28018b0d2e0a2cb75f9d61b04e0834e9ca8ac30ad9251a1"
+  version "1.6.0"
+  sha256 "db5928573ae49a4f6bf4b32bcc2bcdb2971b7af8089d87c734130d6731dd7d8f"
 
   url "https://github.com/Turtlecute33/TextFix/releases/download/v#{version}/TextFix-macos-universal.zip"
   name "TextFix"
