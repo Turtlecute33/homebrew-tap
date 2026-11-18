@@ -1,6 +1,6 @@
 cask "textfix" do
-  version "1.6.0"
-  sha256 "db5928573ae49a4f6bf4b32bcc2bcdb2971b7af8089d87c734130d6731dd7d8f"
+  version "1.7.0"
+  sha256 "b4ccb0e563e353ea136bfe17b6dab2605e43b11ba2af6188d09f6410aa621f3d"
 
   url "https://github.com/Turtlecute33/TextFix/releases/download/v#{version}/TextFix-macos-universal.zip"
   name "TextFix"
@@ -36,7 +36,8 @@ cask "textfix" do
     TextFix needs Accessibility permission:
       System Settings > Privacy & Security > Accessibility
 
-    Each release has a new signature, so after an upgrade macOS treats TextFix as a new app.
-    Remove the old TextFix entry in that list with the minus button, and add the new one.
+    Releases from 1.7.0 on share one signing certificate, so the permission stays after an
+    upgrade. After the upgrade from 1.6.x or older, remove the old TextFix entry in that list
+    with the minus button, and add the new one.
   EOS
 end
