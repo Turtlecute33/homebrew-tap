@@ -1,6 +1,6 @@
 cask "notallyxyz" do
-  version "1.1.5"
-  sha256 "d484176bc1f866aed97379f019198b20f8bfdcbe54b8417756588da76ae6e8fd"
+  version "1.1.6"
+  sha256 "39b68cff44aaafd0229447e9b8d488e0894bc4827029df8327e1efd31cba4858"
 
   url "https://github.com/Turtlecute33/NotallyXYZ/releases/download/v#{version}/NotallyXYZ-macos-#{version}.dmg"
   name "NotallyXYZ"
